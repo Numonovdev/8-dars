@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background-image: url(../img/bgimg.jpg); */
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background: linear-gradient( to right, violet, fuchsia 400px);
+  /* height: 100vh; */
+  padding-bottom: 50px;
+}
